@@ -1,0 +1,91 @@
+.Job_details_container {
+    background-image: url(../../assets/images/bg1.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .Job_details_container p{
+      font-weight: bold;
+      font-size: 30px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+  .JobGridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .appliedContainer {
+    width: 700px;
+    margin-left: 20px;
+  }
+  .appliedContainer p {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .appliedContainer span {
+    font-weight: bold;
+  }
+  .appliedContainer h3 {
+    font-weight: lighter;
+  }
+  .appliedContainer button {
+    border-style: none;
+    height: 50px;
+    width: 80px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .appliedContainer button:hover {
+    cursor: pointer;
+  }
+  .appliedDescription h3 {
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .appliedDescription p {
+    margin-left: 40px;
+    width: 1000px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .jobInformationStyle{
+    border-radius: 1px solid gray;
+    background-color: rgb(243, 240, 246);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 320px;
+    width: 350px;
+  }
+  .JobApplyButton{
+    background-color: rgb(243, 240, 246);
+    border-style: none;
+    width: 370px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+  }
+  .JobApplyButton:hover{
+    color: orange;
+  }
+  .imgTextFlex{
+    display: flex;
+    align-items: center;
+  }
+  .imgTextFlex img{
+    margin-right: 5px;
+  }
+  .title___11{
+    font-weight: bold;
+  }

@@ -1,0 +1,20 @@
+.ChartContainer{
+    display: flex;
+    margin-top: 40px;
+}
+.chartTitle{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;   
+}
+.description{
+    font-family: 'Courier New', Courier, monospace;   
+     font-size: 20px;
+     padding: 10px;
+}
+.span{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}

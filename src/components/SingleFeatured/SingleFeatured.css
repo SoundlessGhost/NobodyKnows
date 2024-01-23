@@ -1,0 +1,39 @@
+.FeaturedInfo{
+    height: 280px;
+    width: 500px;
+    background-color: rgb(251, 251, 251);
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 220, 220);
+}
+.FeaturedInfo img{
+    height: 70px;
+    width: 70px;
+}
+.FeaturedInfo p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.FeatureBtn{
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.FeatureBtn:hover{
+    cursor: pointer;
+}
+.ViewBtn{
+    border-style: none;
+    background-color: skyblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.ViewBtn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.SingleFooterContainer p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:lighter ;
+    margin-left: 100px;
+}
+.name{
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: larger;
+}

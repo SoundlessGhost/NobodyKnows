@@ -1,0 +1,20 @@
+.JobInfo{
+    /* background-color: lightgray; */
+    padding: 10px;
+}
+.JobInfo img{
+    height:40px ;
+    width: 40px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 0px;
+    background-color: aqua;
+}
+.JobInfo p{
+    margin-bottom: 0px;
+    margin-top: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.JobInfo .JobInfoName{
+    font-weight: bold;
+}

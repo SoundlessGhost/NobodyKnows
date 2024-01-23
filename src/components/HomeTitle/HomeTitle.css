@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+  }
+.HomeContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+    background-image: url(../../assets/images/bg2.png);
+    background-repeat: no-repeat;
+}
+.HomeContainer p{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.HomeContainer h6{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.HomeContainer span{
+    color: deepskyblue;
+}
+.HomeContainer img{
+    height:550px;
+    width: 500px;
+    border-radius: 10px;
+}
+.boy img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 595px;
+    left: 191px;
+}

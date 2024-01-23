@@ -1,0 +1,30 @@
+.FeaturedContainer{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 20px;
+    margin:0px 80px;
+}
+
+.JobDescription{
+    margin-top: 4px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.SeeAllBtn{
+    height: 40px;
+    padding: 10px 10px;
+    border-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(240, 207, 140);
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+.SeeAllBtn:hover{
+    background-color: rgb(221, 191, 221);
+}

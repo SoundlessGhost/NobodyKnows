@@ -1,0 +1,11 @@
+.jobContainer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.JobTitle{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
