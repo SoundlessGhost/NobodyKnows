@@ -38,7 +38,7 @@ const router = createBrowserRouter([
       {
         path: "View_Details/:id",
         element: <ViewDetails></ViewDetails>,
-        loader:({params})=>fetch(`featuredData.json/${params.id}`)
+        loader:()=>fetch(`featuredData.json`)
       },
     ],
   },

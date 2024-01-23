@@ -1,12 +1,20 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
-import { useLoaderData } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { jobs } from "../../utilities/featuredData";
+import { useParams } from "react-router-dom";
 const ViewDetails = () => {
-    const data = useLoaderData()
-    console.log(data);
+  const { id } = useParams();
+  const [items, setItems] = useState({});
+  useEffect(() => {
+    const job = jobs.find((i) => i.id === parseInt(id)); // parseInt Or Two Equal Icon Such ( == )
+    setItems(job);
+  }, [id]);
+  const { job_title } = items;
   return (
     <div>
-      <p>hey {data.length}</p>
+      <div>
+        <h1>{job_title}</h1>
+      </div>
     </div>
   );
 };

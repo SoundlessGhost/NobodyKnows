@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import img from "../../assets/images/download (1).jpg";
-import boy from "../../assets/images/boy.png";
+import img from "../../assets/icons/robot.jpg";
+// import boy from "../../assets/images/boy.png";
 import "./HomeTitle.css";
 const HomeTitle = () => {
   return (
@@ -30,9 +30,6 @@ const HomeTitle = () => {
       </div>
       <div>
         <img src={img} alt="" />
-        <p className="boy">
-          <img src={boy} alt="" />
-        </p>
       </div>
     </div>
   );

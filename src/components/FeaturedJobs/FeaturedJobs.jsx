@@ -6,6 +6,9 @@ import { jobs } from "../../utilities/featuredData";
 import { useState } from "react";
 const FeaturedJobs = () => {
   const [jobCount, setJobCount] = useState(jobs.slice(0, 4));
+  const SeeMoreSeeLessHandler = () => {
+    setJobCount(jobCount.length === 4 ? jobs : jobs.slice(0, 4));
+  };
   return (
     <div>
       <h3 className="JobTitle">Featured Jobs</h3>
@@ -19,16 +22,7 @@ const FeaturedJobs = () => {
         ))}
       </div>
       <div className="btnContainer">
-        <button
-          className="SeeAllBtn"
-          onClick={() => {
-            // if (jobCount.length == 4) {
-            //   setJobCount(jobs);
-            // }
-            // jobs.slice(0, 4);
-            setJobCount((prev) => (prev.length == 4 ? jobs : jobs.slice(0, 4)));
-          }}
-        >
+        <button className="SeeAllBtn" onClick={SeeMoreSeeLessHandler}>
           {jobCount.length === 4 ? "See All Jobs" : "See Less"}
         </button>
       </div>
