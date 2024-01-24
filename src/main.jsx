@@ -40,6 +40,10 @@ const router = createBrowserRouter([
         element: <ViewDetails></ViewDetails>,
         loader:()=>fetch(`featuredData.json`)
       },
+      {
+        path:"applied_Job/:id",
+        element:<AppliedJobs></AppliedJobs>
+      },
     ],
   },
 ]);

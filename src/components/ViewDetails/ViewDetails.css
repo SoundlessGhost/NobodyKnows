@@ -54,6 +54,10 @@
     font-size: 15px;
     font-family: "Courier New", Courier, monospace;
   }
+  .jobI {
+    display: flex;
+    align-items: center;
+  }
   .jobInformationStyle{
     border-radius: 1px solid gray;
     background-color: rgb(243, 240, 246);
@@ -86,6 +90,8 @@
   .imgTextFlex img{
     margin-right: 5px;
   }
-  .title___11{
+  .imgTextFlex p ,.jobI p{
     font-weight: bold;
+    margin: 0px;
+    margin-right: 5px;
   }
