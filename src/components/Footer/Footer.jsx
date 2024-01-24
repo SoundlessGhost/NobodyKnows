@@ -7,8 +7,6 @@ import logo from '../../assets/icons/email.png'
 import logo1 from '../../assets/icons/calendar.png'
 import logo2 from '../../assets/icons/phone.png'
 import { Infos } from '../../utilities/footerdata'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faCodeBranch, faArrowsSpin } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
     return (
         <div>

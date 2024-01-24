@@ -22,9 +22,6 @@
     font-weight: bold;
     border-radius: 5px;
 }
-.FeatureBtn:hover{
-    cursor: pointer;
-}
 .ViewBtn{
     border-style: none;
     background-color: skyblue;

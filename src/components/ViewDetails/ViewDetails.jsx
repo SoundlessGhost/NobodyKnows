@@ -1,12 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import { jobs } from "../../utilities/featuredData";
-import {
-  Navigate,
-  useNavigate,
-  useNavigation,
-  useParams,
-} from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./ViewDetails.css";
 import phone1 from "../../assets/icons/phone.png";
 import email1 from "../../assets/icons/email.png";
@@ -31,7 +26,7 @@ const ViewDetails = () => {
   } = items;
   const navigation = useNavigate();
   const GoBackHandler = () => {
-    navigation(-1);
+    navigation('/home');
   };
   const navigate = useNavigate();
   return (

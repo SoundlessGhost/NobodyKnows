@@ -1,0 +1,47 @@
+.Applied_Jobs_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    border: 1px solid rgb(221, 220, 220);
+    background-color: rgb(251, 251, 251);
+    padding: 10px;
+    margin: 0px auto;
+    border-radius:10px ;
+    height: 150px;
+}
+.filterButton{
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 920px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Applied_Jobs_Sub_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Applied_Jobs_Sub_Container img{
+    height: 100px;
+    width: 100px;
+}
+.Applied_Jobs_Sub_Container p{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.salaryAndLocation{
+    display: flex;
+    align-items: center;
+   
+}
+.salaryAndLocation p{
+    margin-right:10px ;
+    margin-top: 10px;
+}

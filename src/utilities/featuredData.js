@@ -25,7 +25,7 @@ export const jobs = [
     job_title: "Extensive Library Of Feature Films",
     company_name: "Netflix",
     remote_or_onsite: "Onsite",
-    location: "California,United Stats",
+    location: "California,United States",
     job_type: "Full Time",
     salary: "$1,492,500",
     job_description:
@@ -45,7 +45,7 @@ export const jobs = [
     job_title: "Clean Energy Company",
     company_name: "Tesla",
     remote_or_onsite: "Onsite",
-    location: "United Stats",
+    location: "United States",
     job_type: "Full Time",
     salary: "$315,648",
     job_description:
